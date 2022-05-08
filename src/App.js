@@ -6,9 +6,9 @@ function App() {
     <div>
       <header></header>
       <br/>
-     {/* <SearchBar searchCity={this.searchCity} ></SearchBar>
+      <SearchBar searchCity={this.searchCity} ></SearchBar>
      {showErrorMessage}
-    {showTemperatureDetails} */}
+    {showTemperatureDetails} 
     </div>
   );
 }
