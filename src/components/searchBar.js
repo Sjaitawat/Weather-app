@@ -27,12 +27,12 @@ handleSearchInput() {
                   value={this.state.cityName}
                 
 
-                  style={{ fontSize: '28px' ,width: '600px', background: '#FFFFFF', boxShadow: '#A020F0', borderRadius: '4px', border: '1px solid #E5E5E5', color: '#8C8C99' , boxSizing: 'border-box', borderRadius: '4px', padding: '5px'}}
+                  style={{ fontSize: '28px' ,width: '600px', background: '#FFFFFF', boxShadow: '#B0B0B0', borderRadius: '4px', border: '1px solid #E5E5E5', color: '#8C8C99' , boxSizing: 'border-box', borderRadius: '4px', padding: '5px'}}
 									onChange={e => this.updateCityName(e)}
 								/>  
     <button 
        onClick={this.handleSearchInput}
-       style={{ background: '#3251ED', color: 'white', fontSize: '33px',cursor: 'pointer' , boxShadow: '#A020F0', borderRadius: '4px',}}
+       style={{ background: '#A020F0', color: 'white', fontSize: '33px',cursor: 'pointer' , boxShadow: '#B0B0B0', borderRadius: '4px',}}
         >Search</button>
       </div>
     );
